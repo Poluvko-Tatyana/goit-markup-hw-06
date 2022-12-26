@@ -723,22 +723,36 @@ margin-top: 12px;
 .form-field-textarea:hover{
     border-color: var(--color-button-nav);
 }
+
 .form-field-textarea: placeholder{
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
 }
+
 .checkbox{
     appearance: none;
 }
+
 .checkbox-icon{ 
-    background-color: var(--color-white);
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    border: 2px solid var(--color-footer);
+    border-radius: 2px;
+    fill: transparent;
 }
 .checkbox:checked + .checkbox-icon{
+    width: 15px;
+    height: 16px;
     background-color: var(--color-button-nav);
-    fill: #2196F3;
+    fill: var(--color-white);
+    border: 2px solid var(--color-button-nav);
+    border-radius: 2px;
 }
-
+.checkbox-label{
+    padding-left: 23px;
+}
 .checkbox-link{
     color: var(--color-button-nav);
     text-decoration-skip-ink: none;
