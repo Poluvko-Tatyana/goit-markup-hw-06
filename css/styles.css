@@ -752,6 +752,7 @@ margin-top: 12px;
 }
 .checkbox-label{
     padding-left: 23px;
+    position: relative;
 }
 .checkbox-link{
     color: var(--color-button-nav);
